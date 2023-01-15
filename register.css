@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container form h3{
+    margin-bottom: 2rem;
+}
+
+.container form{
+    margin-top: 40px;
+    width: 23rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    text-align: center;
+    padding: 15px;
+}
+
+.container form #box{
+    width: 100%;
+    height: 25px;
+    margin: 0.5rem 0;
+    border-radius: .5rem;
+    padding: 1.2rem 1.4rem;
+    font-size: 1rem;
+}
+
+.container form label{
+    float: left;
+    margin-bottom: 12px;
+}
+
+.container .btn{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.container form p{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+
+.myForm{
+    margin: 10px auto;
+}
